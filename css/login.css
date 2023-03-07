@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #252525;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dddddd;
+}
+
+section {
+  width: 60%;
+  height: 50%;
+  background-color: white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  padding: 20px 30px;
+  border-radius: 10px;
+  width: 70%;
+  height: 60%;
+  border: 1px solid #cfcfcf;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.text {
+  color: #252525;
+  font-size: 1.2rem;
+}
+
+.login-btn {
+  width: 100%;
+  height: 30%;
+  background-color: #6822F5;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.login-btn img {
+  width: 120px
+}
+
+.btn-text {
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+
+.privacy-box {
+  width: 100%;
+}
+
+.lock-icon,
+.id,
+.pwd {
+  float: left;
+  padding: 3px;
+}
+
+.id {
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 1px solid #cfcfcf;
+}
+
+.sign-up {
+  background: url(../icons/icon-user.png) no-repeat 0 / 1em;
+  padding-left: 20px;
+  float: right;
+  
+}
+
+.a11y-hidden {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
